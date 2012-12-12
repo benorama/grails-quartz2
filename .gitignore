@@ -1,13 +1,19 @@
-target/
-stacktrace.log
-plugin.xml
-grails-quartz*.zip
+# GRAILS files
+/web-app/WEB-INF
+/target
+/target-eclipse
 
-# Eclipse Project files
+# IDE files
 .classpath
+.idea/
 .project
-.settings/
+.settings
+/*.launch
+/*.tmproj
 
-# OS X generated files
+*.log
+*.zip
+*.iml
+/out
+plugin.xml
 .DS_Store
-
