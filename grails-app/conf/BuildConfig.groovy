@@ -19,7 +19,7 @@ grails.project.dependency.resolution = {
     }
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
-		compile('org.quartz-scheduler:quartz:2.1.5'){ 
+		compile('org.quartz-scheduler:quartz:2.1.6'){
 			excludes "slf4j-api", "c3p0","jta"
 			//excludes([ group: 'org.slf4j', name: 'slf4j-api', version: '1.6.1']) 
 		}
